@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1= title
+    #loading(style="text-align: center; padding: 30px 0 30px")
+        img(src="/images/bx_loader.gif")
+    #indicators
+    
+    fieldset#sales
+        legend Ventas pagadas
+        
+    fieldset#transactions
+        legend Transacciones
+        
+    fieldset#chargebacks
+        legend Contracargos
+        
